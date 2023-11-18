@@ -1,0 +1,18 @@
+{
+  "name": "fastify-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "srv:01": "node ./server_01.js | npx pino-pretty",
+    "srv:02": "node ./server_02.js | npx pino-pretty"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^4.24.3"
+  },
+  "devDependencies": {
+    "pino-pretty": "^10.2.3"
+  }
+}
